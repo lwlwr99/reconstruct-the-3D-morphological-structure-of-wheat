@@ -1,0 +1,10 @@
+# Using high-throughput phenotype platform MVS-Pheno to reconstruct the 3D morphological structure of wheat
+We provide the data and code used in the paper "Using high-throughput phenotype platform MVS-Pheno to reconstruct the 3D morphological structure of wheat"
+
+Wenrui Li , Weiliang Wen , Xianju Lu , Haishen Liu , Minggang Zhang , Pengliang Xiao , Xinyu Guo , Chunjiang Zhao
+# Abstract
+It is of great significance to study the morphological structure of wheat for improving crop yield and achieving efficient use of resources. Three dimensional(3D) information can more accurately describe the morphological and structural characteristics of wheat, Automatic acquisition of three-dimensional(3D) morphological structure information is one of the key steps in wheat plant type research. We propose a point cloud data-driven wheat 3D reconstruction method that achieves wheat 3D structure reconstruction and plant type parameterization at the phytomer node unit scale. Specifically, we use the MVS-Pheno platform to reconstruct the point cloud of wheat plants and segment wheat organs through the deep learning algorithm. On this basis, we extracted key plant type structure information and reconstructed the 3D skeleton structure of wheat. The results show that the semantic segmentation accuracy of wheat point cloud is 95.2%, and the instance segmentation accuracy AP50 is 0.665. The R2 values for extracted leaf length, leaf width, leaf attachment height, stem leaf angle, tiller length, and spike length were 0.97, 0.80, 1.00, 0.95, 0.99, and 0.95, respectively. This method can significantly improve the accuracy and efficiency of 3D morphological analysis of wheat plants, providing strong technical support for research in fields such as wheat agricultural production optimization and genetic breeding.
+# Model
+[Model](https://pan.baidu.com/s/1lRz8ZfoWI-oSanFfnIstnA?pwd=jtgw)
+# References
+Code is built based on [SoftGroup](https://github.com/thangvubk/SoftGroup) and [PointTransformer](https://github.com/Pointcept/PointTransformerV2).
