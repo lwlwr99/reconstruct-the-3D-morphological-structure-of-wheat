@@ -1,0 +1,13 @@
+munch
+pandas
+plyfile
+pyyaml
+scikit-learn
+scipy
+six
+tensorboard
+tensorboardX
+tqdm
+matplotlib
+open3d
+openpyxl
